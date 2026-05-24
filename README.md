@@ -81,9 +81,7 @@ Status        : ONLINE  ●
 
 ## 〔 SORTIE MAP — 3D CONTRIBUTION GRAPH 〕
 
-<div align="center">
-
-<img src="gundam-banner.svg" alt="Gundam Banner" width="100%" />
+<div align="center"><img src="gundam-banner.svg" alt="Gundam Banner" width="100%" />
 
 <br/>
 
