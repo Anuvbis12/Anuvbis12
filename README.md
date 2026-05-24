@@ -61,13 +61,15 @@ Di balik layar, saya adalah seorang mahasiswa Informatika yang antusias dalam me
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Anuvbis12&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%" />
-<img src="https://nirzak-streak-stats.vercel.app/?user=Anuvbis12&theme=chartreuse-dark&hide_border=false" alt="GitHub Streak" width="48%" />
+![](https://github-readme-stats.vercel.app/api?username=Anuvbis12&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true)
+<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Anuvbis12&theme=chartreuse-dark&hide_border=false)
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anuvbis12&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="48%" />
-<img src="https://github-contributor-stats.vercel.app/api?username=Anuvbis12&limit=5&theme=merko&combine_all_yearly_contributions=true" alt="Top Contributed Repo" width="48%" />
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Anuvbis12&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<br/>
+![](https://github-contributor-stats.vercel.app/api?username=Anuvbis12&limit=5&theme=merko&combine_all_yearly_contributions=true)
 
 <br/><br/>
 
