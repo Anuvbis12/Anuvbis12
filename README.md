@@ -81,7 +81,7 @@ Status        : ONLINE  ●
 
 ## 〔 SORTIE MAP — 3D CONTRIBUTION GRAPH 〕
 
-<div align="center"><img src="gundam-banner.svg" alt="Gundam Banner" width="100%" />
+<div align="center"><img src="profile-3d-contrib/gundam-banner.svg" alt="Gundam Banner" width="100%" />
 
 <br/>
 
@@ -107,4 +107,4 @@ Status        : ONLINE  ●
 
 
 <!-- GANTI baris profile-3d-contrib dengan ini: -->
-<!-- <img src="gundam-banner.svg" alt="Gundam Contribution Banner" width="100%" /> -->
+<!-- <img src="profile-3d-contrib/gundam-banner.svg" alt="Gundam Contribution Banner" width="100%" /> -->
