@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
+<defs>
+  <style>
+    @keyframes scanX { 0%{transform:translateX(-900px)} 100%{transform:translateX(1800px)} }
+    @keyframes scanX2 { 0%{transform:translateX(-900px)} 100%{transform:translateX(1800px)} }
+    @keyframes pulseEye { 0%,100%{opacity:1} 50%{opacity:0.3} }
+    @keyframes pulseEye2 { 0%,100%{opacity:0.7} 40%{opacity:1} 70%{opacity:0.2} }
+    @keyframes floatY { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-6px)} }
+    @keyframes floatY2 { 0%,100%{transform:translateY(-3px)} 50%{transform:translateY(3px)} }
+    @keyframes thruster { 0%,100%{opacity:0.9;transform:scaleY(1)} 50%{opacity:0.4;transform:scaleY(0.6)} }
+    @keyframes beamFire { 0%{opacity:0;transform:scaleX(0)} 10%{opacity:1;transform:scaleX(1)} 80%{opacity:0.8} 100%{opacity:0;transform:scaleX(2.5) translateX(60px)} }
+    @keyframes starBlink { 0%,100%{opacity:0.2} 50%{opacity:1} }
+    @keyframes gridFade { 0%,100%{opacity:0.04} 50%{opacity:0.1} }
+    @keyframes textGlow { 0%,100%{opacity:0.6} 50%{opacity:1} }
+    @keyframes particleDrift { 0%{transform:translate(0,0);opacity:0} 20%{opacity:1} 100%{transform:translate(-120px,-80px);opacity:0} }
+    @keyframes particleDrift2 { 0%{transform:translate(0,0);opacity:0} 20%{opacity:0.8} 100%{transform:translate(100px,-60px);opacity:0} }
+    @keyframes shieldPulse { 0%,100%{opacity:0;r:28} 30%{opacity:0.3;r:34} 60%{opacity:0.1;r:40} }
+  </style>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#040c14"/>
+    <stop offset="60%" stop-color="#071520"/>
+    <stop offset="100%" stop-color="#0a0510"/>
+  </linearGradient>
+  <linearGradient id="thrusterGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ff6200" stop-opacity="0.9"/>
+    <stop offset="50%" stop-color="#ff9900" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#ff2200" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#c8dff0"/>
+    <stop offset="100%" stop-color="#8aacc4"/>
+  </linearGradient>
+  <linearGradient id="shieldGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1a4a7a"/>
+    <stop offset="100%" stop-color="#0d2a4a"/>
+  </linearGradient>
+  <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00eaff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#00eaff" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#00eaff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="beamGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00eaff"/>
+    <stop offset="70%" stop-color="#ffffff" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#00eaff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<rect width="900" height="340" fill="url(#bgGrad)"/>
+
+<g style="animation:starBlink 2.1s ease-in-out infinite">
+  <circle cx="50" cy="30" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="820" cy="20" r="1.2" fill="#fff" opacity="0.5"/>
+  <circle cx="130" cy="80" r="0.8" fill="#00eaff" opacity="0.6"/>
+</g>
+<g style="animation:starBlink 3.3s ease-in-out infinite 1s">
+  <circle cx="760" cy="60" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="870" cy="100" r="1.4" fill="#fff" opacity="0.4"/>
+  <circle cx="30" cy="200" r="0.9" fill="#00eaff" opacity="0.5"/>
+</g>
+<g style="animation:starBlink 1.7s ease-in-out infinite 0.5s">
+  <circle cx="400" cy="15" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="600" cy="40" r="0.8" fill="#fff" opacity="0.3"/>
+  <circle cx="200" cy="300" r="1.2" fill="#ff6200" opacity="0.4"/>
+</g>
+<circle cx="700" cy="280" r="0.8" fill="#fff" opacity="0.3" style="animation:starBlink 2.8s ease-in-out infinite 1.5s"/>
+<circle cx="850" cy="250" r="1" fill="#00eaff" opacity="0.4" style="animation:starBlink 2s ease-in-out infinite 0.8s"/>
+
+<g opacity="0.05" style="animation:gridFade 4s ease-in-out infinite">
+  <line x1="0" y1="85" x2="900" y2="85" stroke="#00eaff" stroke-width="0.5"/>
+  <line x1="0" y1="170" x2="900" y2="170" stroke="#00eaff" stroke-width="0.5"/>
+  <line x1="0" y1="255" x2="900" y2="255" stroke="#00eaff" stroke-width="0.5"/>
+  <line x1="225" y1="0" x2="225" y2="340" stroke="#00eaff" stroke-width="0.5"/>
+  <line x1="450" y1="0" x2="450" y2="340" stroke="#00eaff" stroke-width="0.5"/>
+  <line x1="675" y1="0" x2="675" y2="340" stroke="#00eaff" stroke-width="0.5"/>
+</g>
+
+<rect x="0" y="0" width="180" height="340" fill="url(#scanGrad)" style="animation:scanX 5s linear infinite"/>
+<rect x="0" y="0" width="100" height="340" fill="url(#scanGrad)" opacity="0.5" style="animation:scanX2 8s linear infinite 3s"/>
+
+<circle cx="660" cy="180" r="2" fill="#ff6200" opacity="0" style="animation:particleDrift 4s ease-out infinite 0.5s"/>
+<circle cx="670" cy="200" r="1.5" fill="#00eaff" opacity="0" style="animation:particleDrift2 4s ease-out infinite 1.2s"/>
+<circle cx="650" cy="195" r="1" fill="#ffffff" opacity="0" style="animation:particleDrift 4s ease-out infinite 2s"/>
+<circle cx="655" cy="185" r="2" fill="#ff9900" opacity="0" style="animation:particleDrift2 4s ease-out infinite 2.8s"/>
+
+<g style="animation:floatY 3.5s ease-in-out infinite">
+  <g style="animation:thruster 0.4s ease-in-out infinite">
+    <ellipse cx="398" cy="282" rx="7" ry="22" fill="url(#thrusterGrad)"/>
+    <ellipse cx="398" cy="282" rx="3" ry="14" fill="#fff" opacity="0.4"/>
+  </g>
+  <g style="animation:thruster 0.4s ease-in-out infinite 0.2s">
+    <ellipse cx="484" cy="282" rx="7" ry="22" fill="url(#thrusterGrad)"/>
+    <ellipse cx="484" cy="282" rx="3" ry="14" fill="#fff" opacity="0.4"/>
+  </g>
+  <g style="animation:thruster 0.6s ease-in-out infinite 0.1s">
+    <ellipse cx="364" cy="215" rx="4" ry="12" fill="url(#thrusterGrad)" opacity="0.7"/>
+  </g>
+  <g style="animation:thruster 0.6s ease-in-out infinite 0.3s">
+    <ellipse cx="518" cy="215" rx="4" ry="12" fill="url(#thrusterGrad)" opacity="0.7"/>
+  </g>
+  <rect x="405" y="230" width="26" height="52" rx="3" fill="#8aacc4"/>
+  <rect x="405" y="230" width="26" height="8" rx="2" fill="#b8d4e8"/>
+  <rect x="402" y="272" width="32" height="14" rx="3" fill="#6b8fa8"/>
+  <rect x="403" y="278" width="30" height="4" fill="#00eaff" opacity="0.4"/>
+  <rect x="451" y="230" width="26" height="52" rx="3" fill="#8aacc4"/>
+  <rect x="451" y="230" width="26" height="8" rx="2" fill="#b8d4e8"/>
+  <rect x="449" y="272" width="32" height="14" rx="3" fill="#6b8fa8"/>
+  <rect x="450" y="278" width="30" height="4" fill="#00eaff" opacity="0.4"/>
+  <rect x="407" y="215" width="68" height="22" rx="4" fill="#6b8fa8"/>
+  <rect x="416" y="219" width="50" height="6" rx="2" fill="#8aacc4"/>
+  <rect x="404" y="215" width="14" height="18" rx="3" fill="#5a7a94"/>
+  <rect x="464" y="215" width="14" height="18" rx="3" fill="#5a7a94"/>
+  <rect x="404" y="158" width="74" height="60" rx="5" fill="url(#bodyGrad)"/>
+  <rect x="404" y="168" width="74" height="3" fill="#00eaff" opacity="0.3"/>
+  <rect x="418" y="158" width="46" height="60" rx="3" fill="#a8c8e0"/>
+  <rect x="412" y="172" width="16" height="28" rx="3" fill="#cc2200"/>
+  <rect x="412" y="172" width="16" height="4" rx="1" fill="#ff4422" opacity="0.8"/>
+  <rect x="412" y="179" width="16" height="3" fill="#ff3300" opacity="0.6"/>
+  <rect x="412" y="185" width="16" height="3" fill="#ff3300" opacity="0.4"/>
+  <rect x="454" y="172" width="16" height="28" rx="3" fill="#cc2200"/>
+  <rect x="454" y="172" width="16" height="4" rx="1" fill="#ff4422" opacity="0.8"/>
+  <circle cx="441" cy="186" r="7" fill="#00eaff" opacity="0.9"/>
+  <circle cx="441" cy="186" r="4" fill="#ffffff" opacity="0.7"/>
+  <circle cx="441" cy="186" r="7" fill="none" stroke="#00eaff" stroke-width="1" style="animation:pulseEye 1.5s ease-in-out infinite"/>
+  <rect x="370" y="155" width="36" height="46" rx="6" fill="#9ab8d0"/>
+  <rect x="370" y="155" width="36" height="10" rx="4" fill="#b8d4e8"/>
+  <rect x="372" y="169" width="32" height="3" fill="#00eaff" opacity="0.5"/>
+  <rect x="372" y="175" width="32" height="3" fill="#00eaff" opacity="0.3"/>
+  <rect x="476" y="155" width="36" height="46" rx="6" fill="#9ab8d0"/>
+  <rect x="476" y="155" width="36" height="10" rx="4" fill="#b8d4e8"/>
+  <rect x="478" y="169" width="32" height="3" fill="#00eaff" opacity="0.5"/>
+  <rect x="478" y="175" width="32" height="3" fill="#00eaff" opacity="0.3"/>
+  <rect x="374" y="199" width="20" height="36" rx="4" fill="#8aacc4"/>
+  <rect x="374" y="199" width="20" height="7" rx="3" fill="#9ab8d0"/>
+  <rect x="371" y="230" width="26" height="12" rx="3" fill="#5a7a94"/>
+  <rect x="320" y="234" width="52" height="5" rx="2" fill="#3a5a74"/>
+  <rect x="318" y="234" width="8" height="5" rx="1" fill="#2a4a64"/>
+  <rect x="488" y="199" width="20" height="36" rx="4" fill="#8aacc4"/>
+  <rect x="488" y="199" width="20" height="7" rx="3" fill="#9ab8d0"/>
+  <rect x="485" y="228" width="24" height="14" rx="3" fill="#5a7a94"/>
+  <g style="animation:floatY2 4s ease-in-out infinite 1s">
+    <rect x="340" y="158" width="28" height="56" rx="8" fill="url(#shieldGrad)" stroke="#4a8ab8" stroke-width="1.5"/>
+    <rect x="344" y="162" width="20" height="48" rx="6" fill="none" stroke="#2a6a98" stroke-width="0.8"/>
+    <rect x="352" y="172" width="4" height="20" rx="1" fill="#0055A4" opacity="0.8"/>
+    <rect x="346" y="180" width="16" height="4" rx="1" fill="#0055A4" opacity="0.8"/>
+    <circle cx="354" cy="182" r="3" fill="#00eaff" opacity="0.6" style="animation:pulseEye2 2s ease-in-out infinite"/>
+  </g>
+  <rect x="430" y="144" width="22" height="16" rx="3" fill="#7a9ab4"/>
+  <g>
+    <rect x="418" y="112" width="46" height="36" rx="5" fill="url(#bodyGrad)"/>
+    <rect x="423" y="108" width="36" height="10" rx="3" fill="#b8d4e8"/>
+    <polygon points="430,108 423,82 435,100" fill="#E3000F"/>
+    <polygon points="430,108 421,80 427,100" fill="#cc1100"/>
+    <polygon points="452,108 459,82 447,100" fill="#E3000F"/>
+    <polygon points="452,108 461,80 455,100" fill="#cc1100"/>
+    <polygon points="441,106 437,86 445,86" fill="#ffcc00"/>
+    <rect x="422" y="122" width="38" height="22" rx="3" fill="#8aacc4"/>
+    <rect x="424" y="124" width="34" height="12" rx="6" fill="#1a2a3a"/>
+    <circle cx="441" cy="130" r="5" fill="#E3000F" style="animation:pulseEye 0.8s ease-in-out infinite"/>
+    <circle cx="441" cy="130" r="3" fill="#ff6644"/>
+    <circle cx="441" cy="130" r="1.5" fill="#ffaa88"/>
+    <circle cx="441" cy="130" r="6" fill="none" stroke="#ff4400" stroke-width="1" opacity="0.5" style="animation:pulseEye2 0.8s ease-in-out infinite"/>
+    <rect x="418" y="126" width="5" height="10" rx="1" fill="#3a5a74"/>
+    <rect x="418" y="127" width="4" height="2" fill="#00eaff" opacity="0.6"/>
+    <rect x="418" y="131" width="4" height="2" fill="#00eaff" opacity="0.4"/>
+    <rect x="459" y="126" width="5" height="10" rx="1" fill="#3a5a74"/>
+    <rect x="460" y="127" width="4" height="2" fill="#00eaff" opacity="0.6"/>
+    <rect x="460" y="131" width="4" height="2" fill="#00eaff" opacity="0.4"/>
+    <rect x="428" y="141" width="26" height="6" rx="2" fill="#6b8fa8"/>
+  </g>
+  <rect x="474" y="155" width="12" height="30" rx="3" fill="#5a7a94" opacity="0.8"/>
+</g>
+
+<g style="animation:beamFire 6s ease-out infinite 2s; transform-origin: 318px 237px">
+  <rect x="180" y="235" width="138" height="3" rx="1.5" fill="url(#beamGrad)" opacity="0.9"/>
+  <rect x="200" y="234" width="100" height="5" rx="2.5" fill="#00eaff" opacity="0.3"/>
+</g>
+
+<circle cx="354" cy="186" r="28" fill="none" stroke="#00eaff" stroke-width="1.5" style="animation:shieldPulse 3s ease-out infinite 1s"/>
+
+<g style="animation:textGlow 2s ease-in-out infinite">
+  <polyline points="820,20 880,20 880,60" fill="none" stroke="#00eaff" stroke-width="1" opacity="0.5"/>
+  <polyline points="20,20 20,60" fill="none" stroke="#00eaff" stroke-width="1" opacity="0.3"/>
+  <polyline points="20,280 20,320 60,320" fill="none" stroke="#00eaff" stroke-width="1" opacity="0.3"/>
+  <polyline points="880,280 880,320 840,320" fill="none" stroke="#00eaff" stroke-width="1" opacity="0.5"/>
+</g>
+
+<g font-family="monospace" fill="#00eaff" opacity="0.7">
+  <text x="700" y="60" font-size="10" letter-spacing="2">RX-78-GP00B</text>
+  <text x="700" y="78" font-size="9" fill="#aaaaaa" letter-spacing="1">MOBILE SUIT: ACTIVE</text>
+  <line x1="700" y1="84" x2="880" y2="84" stroke="#00eaff" stroke-width="0.5" opacity="0.4"/>
+  <text x="700" y="100" font-size="9" letter-spacing="1">REACTOR: ONLINE</text>
+  <text x="700" y="116" font-size="9" letter-spacing="1">PILOT: ANUVBIS12</text>
+  <text x="700" y="132" font-size="9" fill="#ff6200" letter-spacing="1">TARGET: LOCKED</text>
+  <line x1="700" y1="138" x2="880" y2="138" stroke="#00eaff" stroke-width="0.5" opacity="0.4"/>
+</g>
+
+<g opacity="0.85">
+  <text x="44" y="310" font-family="monospace" font-size="9" fill="#00eaff" letter-spacing="2" opacity="0.6">SORTIE LOG</text>
+  <rect x="44" y="278" width="10" height="24" rx="1" fill="#00eaff" opacity="0.4"/>
+  <rect x="57" y="265" width="10" height="37" rx="1" fill="#00eaff" opacity="0.5"/>
+  <rect x="70" y="272" width="10" height="30" rx="1" fill="#00eaff" opacity="0.45"/>
+  <rect x="83" y="258" width="10" height="44" rx="1" fill="#00eaff" opacity="0.6"/>
+  <rect x="96" y="270" width="10" height="32" rx="1" fill="#00eaff" opacity="0.5"/>
+  <rect x="109" y="255" width="10" height="47" rx="1" fill="#ff6200" opacity="0.7"/>
+  <rect x="122" y="263" width="10" height="39" rx="1" fill="#00eaff" opacity="0.55"/>
+  <rect x="135" y="248" width="10" height="54" rx="1" fill="#ff6200" opacity="0.8"/>
+  <rect x="148" y="260" width="10" height="42" rx="1" fill="#00eaff" opacity="0.5"/>
+  <rect x="161" y="268" width="10" height="34" rx="1" fill="#00eaff" opacity="0.45"/>
+  <rect x="174" y="252" width="10" height="50" rx="1" fill="#ff6200" opacity="0.75"/>
+  <rect x="187" y="270" width="10" height="32" rx="1" fill="#00eaff" opacity="0.4"/>
+  <rect x="200" y="257" width="10" height="45" rx="1" fill="#00eaff" opacity="0.55"/>
+  <rect x="213" y="263" width="10" height="39" rx="1" fill="#00eaff" opacity="0.5"/>
+  <rect x="226" y="244" width="10" height="58" rx="1" fill="#ff6200" opacity="0.85"/>
+  <rect x="239" y="268" width="10" height="34" rx="1" fill="#00eaff" opacity="0.45"/>
+  <rect x="252" y="255" width="10" height="47" rx="1" fill="#00eaff" opacity="0.55"/>
+  <rect x="265" y="260" width="10" height="42" rx="1" fill="#00eaff" opacity="0.5"/>
+  <rect x="278" y="250" width="10" height="52" rx="1" fill="#ff6200" opacity="0.75"/>
+  <rect x="291" y="265" width="10" height="37" rx="1" fill="#00eaff" opacity="0.5"/>
+  <rect x="304" y="272" width="10" height="30" rx="1" fill="#00eaff" opacity="0.45"/>
+  <line x1="44" y1="303" x2="315" y2="303" stroke="#00eaff" stroke-width="0.5" opacity="0.3"/>
+</g>
+
+<text x="450" y="330" font-family="monospace" font-size="9" fill="#00eaff" text-anchor="middle" letter-spacing="3" opacity="0.5">EARTH FEDERATION FORCES · UC 0083</text>
+</svg>
