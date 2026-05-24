@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- Banner visual utama yang dipersonalisasi -->
-<img src="image_0.png" alt="Digital Gatekeeper Banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:003300&height=250&section=header&text=Anuvbis12&fontSize=80&fontColor=00FF00&animation=twinkling&fontAlignY=40&desc=The%20Digital%20Gatekeeper&descSize=22&descAlignY=65&descAlign=50" alt="Digital Gatekeeper Banner" width="100%" />
 
 # 💀 Greetings. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I am Anuvbis12.
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=The+digital+gatekeeper...;Ready+to+crack+codes+and+unravel+mysteries...;Are+you+prepared+to+follow?" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=The+digital+gatekeeper...;Ready+to+crack+codes+and+unravel+mysteries...;Are+you+prepared+to+follow?" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -61,6 +61,8 @@ Di balik layar, saya adalah seorang mahasiswa Informatika yang antusias dalam me
 
 <div align="center">
 
+<!-- Vercel stats commented out temporarily because public instance is PAUSED -->
+<!--
 ![](https://github-readme-stats.vercel.app/api?username=Anuvbis12&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true)
 <br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Anuvbis12&theme=chartreuse-dark&hide_border=false)
@@ -70,15 +72,13 @@ Di balik layar, saya adalah seorang mahasiswa Informatika yang antusias dalam me
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Anuvbis12&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 <br/>
 ![](https://github-contributor-stats.vercel.app/api?username=Anuvbis12&limit=5&theme=merko&combine_all_yearly_contributions=true)
+-->
 
-<br/><br/>
+<br/>
 
-### 🐍 Contribution Streak Snake
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anuvbis12/Anuvbis12/output/dist/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anuvbis12/Anuvbis12/output/dist/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Anuvbis12/Anuvbis12/output/dist/github-contribution-grid-snake.svg" width="100%">
-</picture>
+### 🌌 3D Contribution Graph
+
+<img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
 
 <br/><br/>
 
