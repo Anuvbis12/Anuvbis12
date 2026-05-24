@@ -76,11 +76,9 @@ Di balik layar, saya adalah seorang mahasiswa Informatika sekaligus "pilot" yang
 
 <br/>
 
-### 🛡️ Mission Trophies
+### 🌌 3D Gundam Base (Contribution Graph)
 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=Anuvbis12&theme=radical&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" alt="Trophies" />
-</a>
+<img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
 
 <br/><br/>
 
