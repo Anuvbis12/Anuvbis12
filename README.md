@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00eaff,50:0055A4,100:E3000F&height=220&section=header&text=ANUVBIS12&fontSize=72&fontColor=ffffff&fontAlignY=42&desc=◆%20Mobile%20Suit%20Pilot%20|%20System%20Online%20◆&descSize=18&descAlignY=62&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=20&pause=1000&color=00EAFF&center=true&vCenter=true&width=700&lines=SYSTEM+INITIALIZED...;GN+DRIVE+ACTIVE...;MOBILE+SUIT+READY+FOR+LAUNCH...;TARGET+LOCKED...;COMMENCING+MISSION." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=20&pause=1000&color=00EAFF&center=true&vCenter=true&width=700&lines=SYSTEM+INITIALIZED...;GN+DRIVE+ACTIVE...;READY+FOR+LAUNCH...;TARGET+LOCKED...;COMMENCING+MISSION." alt="Typing SVG" />
 
 <br/>
 
