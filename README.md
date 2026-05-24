@@ -83,7 +83,7 @@ Status        : ONLINE  ●
 
 <div align="center">
 
-<img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
+<img src="gundam-banner.svg" alt="Gundam Banner" width="100%" />
 
 <br/>
 
