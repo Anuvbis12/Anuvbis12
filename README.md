@@ -1,12 +1,12 @@
 <div align="center">
 
-<!-- Banner visual utama yang dipersonalisasi -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:003300&height=250&section=header&text=Anuvbis12&fontSize=80&fontColor=00FF00&animation=twinkling&fontAlignY=40&desc=The%20Digital%20Gatekeeper&descSize=22&descAlignY=65&descAlign=50" alt="Digital Gatekeeper Banner" width="100%" />
+<!-- Banner visual utama bergaya Gundam/Mecha -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0055A4,100:E3000F&height=250&section=header&text=Anuvbis12&fontSize=80&fontColor=ffffff&fontAlignY=40&desc=Gundam%20Pilot%20|%20System%20Online&descSize=22&descAlignY=65&descAlign=50" alt="Gundam Pilot Banner" width="100%" />
 
-# 💀 Greetings. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I am Anuvbis12.
+# 🤖 Greetings. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I am Anuvbis12.
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=The+digital+gatekeeper...;Ready+to+crack+codes+and+unravel+mysteries...;Are+you+prepared+to+follow?" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=1000&color=E3000F&center=true&vCenter=true&width=800&lines=System+Initialized...;GN+Drive+Active...;Mobile+Suit+Ready+for+Launch...;Target+Locked...;Commencing+Mission." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -19,21 +19,21 @@
 
 ---
 
-## 🕵️‍♂️ About Me
+## 🚀 Pilot Profile (About Me)
 
-Di balik layar, saya adalah seorang mahasiswa Informatika yang antusias dalam menerjemahkan logika menjadi aplikasi nyata. Fokus saya saat ini adalah membangun antarmuka yang mulus dan mengeksplorasi kecerdasan buatan.
+Di balik layar, saya adalah seorang mahasiswa Informatika sekaligus "pilot" yang antusias dalam menerjemahkan logika mesin menjadi aplikasi nyata. Fokus saya saat ini adalah membangun antarmuka yang presisi dan mengeksplorasi kecerdasan buatan.
 
-- 🔭 **Currently working on:** Mobile applications and Computer Vision projects (Object Detection).
-- 🌱 **Currently deep-diving into:** AI enhancements, PyTorch, and advanced Flutter architectures.
-- ⚡ **Fun fact:** When I'm not training models or debugging code, you can find me optimizing FPS in competitive games atau tweaking my mechanical keyboard setup.
+- 🔭 **Current Mission:** Mobile applications and Computer Vision projects (Object Detection).
+- 🌱 **Upgrading Systems in:** AI enhancements, PyTorch, and advanced Flutter architectures.
+- ⚡ **Pilot Fun Fact:** When I'm not training models or debugging code, you can find me optimizing FPS in competitive games atau melakukan *maintenance* setup mechanical keyboard saya.
 
 ---
 
-## 💻 Tech Stack & Arsenal
+## ⚙️ Arsenal & Tech Stack
 
 <div align="center">
 
-### **Software Development & AI**
+### **Development Modules & AI**
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
@@ -44,7 +44,7 @@ Di balik layar, saya adalah seorang mahasiswa Informatika yang antusias dalam me
 
 <br/>
 
-### **Gaming & Platforms**
+### **Simulation & Gaming Platforms**
 
 <img src="https://img.shields.io/badge/Unreal_Engine-000000?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine" />
 <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" alt="Steam" />
@@ -57,28 +57,30 @@ Di balik layar, saya adalah seorang mahasiswa Informatika yang antusias dalam me
 
 ---
 
-## 📊 GitHub Analytics
+## 🎯 Combat Analytics (GitHub Stats)
 
 <div align="center">
 
 <!-- Vercel stats commented out temporarily because public instance is PAUSED -->
 <!--
-![](https://github-readme-stats.vercel.app/api?username=Anuvbis12&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true)
+![](https://github-readme-stats.vercel.app/api?username=Anuvbis12&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
 <br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Anuvbis12&theme=chartreuse-dark&hide_border=false)
+![](https://nirzak-streak-stats.vercel.app/?user=Anuvbis12&theme=radical&hide_border=false)
 
 <br/><br/>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Anuvbis12&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Anuvbis12&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 <br/>
-![](https://github-contributor-stats.vercel.app/api?username=Anuvbis12&limit=5&theme=merko&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=Anuvbis12&limit=5&theme=radical&combine_all_yearly_contributions=true)
 -->
 
 <br/>
 
-### 🌌 3D Contribution Graph
+### 🛡️ Mission Trophies
 
-<img src="profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" />
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=Anuvbis12&theme=radical&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" alt="Trophies" />
+</a>
 
 <br/><br/>
 
